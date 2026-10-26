@@ -26,7 +26,7 @@ public abstract class Sensor implements Runnable {
         this.umbralMax = umbralMax;
     }
 
-    /** Devuelve una lectura simulada. */
+    /** Devuelve una lectura simulada */
     protected abstract double medir();
 
     @Override
